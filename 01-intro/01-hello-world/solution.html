@@ -1,1 +1,122 @@
 <!-- Напишите решение сюда -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <style>
+      * {
+        margin: 0;
+      }
+
+      header {
+        height: 50px;
+        background-color: red;
+        color: white;
+      }
+      .navigation {
+        height: 50px;
+        background-color: orange;
+      }
+
+      h1 {
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+      }
+
+      .navigation ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0px;
+      }
+
+      .navigation li {
+        height: 50px;
+        display: inline;
+        margin-right: 30px;
+        line-height: 50px;
+      }
+
+      li:last-child {
+        margin-right: 0px;
+      }
+
+      .navigation a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .navigation a:hover {
+        color: red;
+      }
+
+      main {
+        height: 305px;
+        background-color: green;
+        padding: 10px;
+      }
+
+      .art-1 {
+        height: 150px;
+        background-color: blue;
+        margin-bottom: 5px;
+        color: white;
+      }
+      .art-2 {
+        height: 150px;
+        background-color: blue;
+        color: white;
+      }
+
+      h2 {
+        padding: 20px 20px;
+      }
+
+      footer {
+        height: 50px;
+        font-size: 36px;
+        background-color: purple;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Navigation 1</a></li>
+        <li><a href="#">Navigation 2</a></li>
+        <li><a href="#">Navigation 3</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article class="art-1">
+        <h2>Article 1</h2>
+        <ul>
+          <li>Оригинальная трилогия</li>
+          <li>Трилогия приквелов</li>
+          <li>Трилогия сиквелов</li>
+        </ul>
+      </article>
+
+      <article class="art-2">
+        <h2>Article 1</h2>
+        <ol>
+          <li>Эпизод IV — Новая надежда</li>
+          <li>Эпизод V — Империя наносит ответный удар</li>
+          <li>Эпизод VI — Возвращение джедая</li>
+        </ol>
+      </article>
+    </main>
+
+    <footer>Footer</footer>
+  </body>
+</html>
